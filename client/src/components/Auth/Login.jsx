@@ -16,7 +16,7 @@
 //             <form 
 //             onSubmit={(e)=>{submitHandler(e)}}
 //             className='flex flex-col items-center justify-center'>
-//                 <input
+//                 <inpu
 //                 value={email}
 //                 name='email'
 //                 onChange={(e)=>{setemail(e.target.value)}}
