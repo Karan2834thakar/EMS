@@ -14,14 +14,14 @@ const Login = ({ handleLogin }) => {
   return (
     <>
       {/* Welcome Header */}
-      <div className="absolute inset-x-0 top-10 mx-auto text-center w-full px-4 sm:px-8 md:px-16">
+      <div className="absolute inset-x-0 top-10 text-center w-full px-4 sm:px-8 md:px-16">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-emerald-400">
           Welcome to Workforce Manager
         </h1>
       </div>
 
       {/* Login Form */}
-      <div className="flex h-screen w-full justify-center items-center bg-black-100 px-4 sm:px-8">
+      <div className="flex h-screen w-full justify-center items-center bg-black-100 px-4 sm:px-8 pt-32 lg:pt-40">
         <div className="border-2 rounded-xl border-emerald-700 p-8 sm:p-12 md:p-16 lg:p-20 w-full max-w-md">
           <form onSubmit={(e) => submitHandler(e)} className="flex flex-col items-center justify-center">
             <input
@@ -53,8 +53,8 @@ const Login = ({ handleLogin }) => {
           {/* Instructions below the form */}
           <div className="mt-6 text-center text-sm sm:text-base text-gray-400">
             <p className="mb-2">Please use the following credentials to log in:</p>
-            <p className="font-semibold text-emerald-400 mt-2">Admin: admin@example.com / password</p>
-            <p className="font-semibold text-emerald-400 mt-1">Employee: employee@example.com / password</p>
+            <p className="font-semibold text-emerald-400 mt-2">Admin: admin@me.com / password</p>
+            <p className="font-semibold text-emerald-400 mt-1">Employee: employee[2-5]@example.com / password</p>
           </div>
         </div>
       </div>
