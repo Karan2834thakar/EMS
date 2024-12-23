@@ -53,8 +53,8 @@ const Login = ({ handleLogin }) => {
           {/* Instructions below the form */}
           <div className="mt-6 text-center text-sm sm:text-base text-gray-400">
             <p className="mb-2">Please use the following credentials to log in:</p>
-            <p className="font-semibold text-emerald-400 mt-2">Admin: admin@me.com / password</p>
-            <p className="font-semibold text-emerald-400 mt-1">Employee: employee[2-5]@example.com / password</p>
+            <p className="font-semibold text-emerald-400 mt-2">Admin: admin@me.com / password:123</p>
+            <p className="font-semibold text-emerald-400 mt-1">Employee: employee[2-5]@example.com / password:123</p>
           </div>
         </div>
       </div>
