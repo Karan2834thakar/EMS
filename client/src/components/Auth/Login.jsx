@@ -12,7 +12,9 @@ const Login = ({ handleLogin }) => {
   };
 
   return (
-    <div className="flex h-screen w-screen justify-center items-center bg-gray-100 px-4 sm:px-8">
+    <>
+    <div className=' text-7xl font-serif font-semibold text-emerald-400 items-center justify-between absolute bg-black-100 py-10 px-40 sm:px-80'> Welcome to Workforce Manager</div>
+    <div className="flex h-screen w-screen justify-center items-center  bg-black-100 px-4 sm:px-8">
       <div className="border-2 rounded-xl border-emerald-700 p-8 sm:p-12 md:p-16 lg:p-20 w-full max-w-md">
         <form onSubmit={(e) => submitHandler(e)} className="flex flex-col items-center justify-center">
           <input
@@ -41,6 +43,7 @@ const Login = ({ handleLogin }) => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 
